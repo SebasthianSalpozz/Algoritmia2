@@ -40,4 +40,9 @@ subestructura optima o
 
 */
 
-/* */
+/*
+Q3
+Vemos la Edit-Distance anterior de la segunda cadena porque estamos insertando un nuevo carácter en la primera cadena para hacerla igual a la segunda
+*/
+
+//Va disculpar trainer al parece no habia subido esta mi respuesta al repo pero si lo tenia en mi privado sin embargo si no me lo hace valer esta bien disculpe

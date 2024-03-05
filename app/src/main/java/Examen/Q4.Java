@@ -1,3 +1,5 @@
+package Examen;
+
 import java.util.*;
 
 public class Q4 {

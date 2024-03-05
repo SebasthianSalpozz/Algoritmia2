@@ -1,4 +1,4 @@
-package trainsorting;
+package thirdTask.trainsorting;
 
 import java.util.Scanner;
 

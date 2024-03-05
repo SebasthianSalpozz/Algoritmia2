@@ -1,3 +1,5 @@
+package Examen;
+
 /*a.Update the code so it uses dynamic programming
 Transformado a Bottom up
 */
@@ -37,7 +39,6 @@ q3
  podria llegar a ser resuelto con un algoritmo de Dp sin embargo deberia de cumplir 
  alguna caracteristica mas para llegar a serlo como:
 subestructura optima o 
-
 */
 
 /*

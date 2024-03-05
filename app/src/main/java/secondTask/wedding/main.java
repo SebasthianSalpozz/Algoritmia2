@@ -1,4 +1,4 @@
-package wedding;
+package secondTask.wedding;
 
 import java.util.Scanner;
 

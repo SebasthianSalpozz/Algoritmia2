@@ -1,4 +1,4 @@
-package applePeople;
+package fourthTask.applePeople;
 
 import java.io.BufferedReader;
 import java.io.IOException;

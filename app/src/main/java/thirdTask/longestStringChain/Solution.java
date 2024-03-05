@@ -1,4 +1,4 @@
-package longestStringChain;
+package thirdTask.longestStringChain;
 import java.util.*;
 
 class Solution {

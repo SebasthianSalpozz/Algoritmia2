@@ -69,8 +69,10 @@ public class TextAnalyzer {
       }
     }
     if (words1.length == misspelings.size()&& words2.length == misspelings.size()) {
-      misspelings.remove(words1[words1.length-1]);
-      lcsLength--;
+      for (int i = 1; i < words1.length; i++) {
+        misspelings.remove(words1[i]);
+        lcsLength--;
+      }
     }
     return misspelings;
   }

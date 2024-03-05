@@ -1,11 +1,10 @@
-// Kitt.java
 package ProyectoI;
 
 import static ProyectoI.TextAnalyzer.calculateSimilarityPercentage;
 
 public class Kitt {
     public static void main(String[] args) {
-        System.out.println("eg1");
+        System.out.println("example1");
         String filePath1 = "app/src/main/java/ProyectoI/assets/text1.txt";
         String filePath2 = "app/src/main/java/ProyectoI/assets/text2.txt";
         String fileContent = FileHandler.readFile(filePath1);
@@ -13,7 +12,7 @@ public class Kitt {
         double similarityPercentage = calculateSimilarityPercentage(fileContent, fileContent2);
         System.out.println("The similarity percentage is: " + similarityPercentage + "%");
 
-        System.out.println("eg2");
+        System.out.println("example2");
 
         String filePath3 = "app/src/main/java/ProyectoI/assets/text3.txt";
         String filePath4 = "app/src/main/java/ProyectoI/assets/text4.txt";
@@ -22,7 +21,7 @@ public class Kitt {
         double similarityPercentage2 = calculateSimilarityPercentage(fileContent3, fileContent4);
         System.out.println("The similarity percentage is: " + similarityPercentage2 + "%");
 
-        System.out.println("eg3");
+        System.out.println("example3");
         String filePath5 = "app/src/main/java/ProyectoI/assets/text5.txt";
         String filePath6 = "app/src/main/java/ProyectoI/assets/text6.txt";
         String fileContent5 = FileHandler.readFile(filePath5);
@@ -30,7 +29,7 @@ public class Kitt {
         double similarityPercentage3 = calculateSimilarityPercentage(fileContent5, fileContent6);
         System.out.println("The similarity percentage is: " + similarityPercentage3 + "%");
 
-        System.out.println("eg4");
+        System.out.println("example4");
         String filePath7 = "app/src/main/java/ProyectoI/assets/text7.txt";
         String filePath8 = "app/src/main/java/ProyectoI/assets/text8.txt";
         String fileContent7 = FileHandler.readFile(filePath7);

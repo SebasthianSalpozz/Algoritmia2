@@ -16,9 +16,11 @@ public class naiveString {
         Scanner scanner = new Scanner(System.in);
         String pattern = scanner.nextLine();
         String text = scanner.nextLine();
+        occurrences.add(1);
         if (occurrences.size() == 0){
             System.out.println("Pattern not found");
         }
+        occurrences.remove(0);
         findPattern(pattern, text);
     }
 

@@ -43,7 +43,7 @@ public class cocoChocoBar {
         int amount = scanner.nextInt();
         scanner.close();
 
-        int[] particions = fillparticions(12);
+        int[] particions = fillparticions(amount);
         int result = coinChange(particions, amount);
         System.out.println(result);
     }
